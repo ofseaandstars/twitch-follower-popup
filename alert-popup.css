@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
+html,body{
+	padding: 0;
+	margin: 0;
+	font-family: "Titillium Web", sans-serif;
+	color: #FFF;
+	overflow: hidden;
+}
+
+#image{
+	width: 115px;
+	height: 115px;
+	position: absolute;
+	left: 40%;
+	bottom: 0px;
+}
+
+#headline, #name{
+	text-align: center;
+}
+
+#alertHolder{
+	opacity: 100;
+	width:800px;
+}
+
+#headline{
+	font-size: 33px;
+    position: absolute;
+    bottom: 150px;
+	width: 800px;
+    text-transform: uppercase;
+  	color: white;
+}
+
+#name{
+	/*font-size: 52px;*/
+	font-size:4vw;
+	position: absolute;
+	bottom: 110px;
+	width: 800px;
+	font-weight: bold;
+	text-align: center;
+    text-transform: uppercase;
+  	color: white;
+  }
+
+/* This section combines two animations from the Animate.css library, as well as timing the actual entry and exit animations. This is due to the fact that the popup should only show temporarily. */
+  .myAnimations {
+
+  	animation: slideInUp, fadeInUp;
+  	animation-delay: 0s 0s;
+    -webkit-animation-delay: 0s 0s;
+  	-webkit-animation: slideInUp, fadeInUp;
+  }
+
+  .myAnimations2{
+  	animation: slideOutDown, fadeOutDown;
+  	animation-delay: 3s;
+  	-webkit-animation-delay: 3s;
+  }

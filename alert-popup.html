@@ -1,0 +1,24 @@
+<head>
+  <!-- This particular line is not necessary due to how Streamlabs works, but is useful for debugging.
+<link rel="stylesheet" type="text/css" href="alert-popup.css">
+-->
+
+  <!-- Animate.css library is used for the main animations. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<div id="alertHolder">
+
+  <!-- The {image} tag is used by Streamlabs to reference the image you upload via their interface. -->
+	<img id="image" class="animated myAnimations"src="{image}" />
+
+  <!-- The font you wish to use can be from Google Fonts, otherwise must be installed on your PC locally. -->
+	<span style="font-family: 'Titillium Web', sans-serif; font-weight: bold">&nbsp;</span>
+	<div id="infoHolder">
+
+    <!-- The main headline of the alert. This can be customised to your liking. -->
+		<div id="headline" class="animated myAnimations">New Follower,</div>
+
+    <!-- The {name} tag will be replaced by Streamlabs with the name of the most recent follower. -->
+		<div id="name" class="animated myAnimations">{name}</div>
+	</div>
+</div>
