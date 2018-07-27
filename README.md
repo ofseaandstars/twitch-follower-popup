@@ -8,3 +8,6 @@ Once you have done this, you will be three tabs. One for HTML, one for CSS and a
 Copy the code from the respective files in this github repository and modify to your liking.
 
 This project supports images and sounds from Streamlabs' interface, so no need to link your own ones via links.
+
+---
+[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/T6T5H1L9)
